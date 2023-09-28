@@ -24,7 +24,6 @@ keywords = ["color", "colors", "distinguish", "distinguishable",
 dependencies = [
     "matplotlib",
     "numpy",
-    "time",
     "tqdm",
     "seaborn"
 ]

@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # virtual_enviroment
-distinguish-colors/*
+chroma-dev/*
 
 # vscode
 .vscode/*
