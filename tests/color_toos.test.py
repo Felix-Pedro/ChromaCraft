@@ -1,5 +1,5 @@
 import numpy as np
-from ChromaCraft.cromacraft import generate_distinguishable_colors, is_color_distinguishable
+from ChromaCraft.chroma_craft import generate_distinguishable_colors, is_color_distinguishable
 
 def test_generate_distinguishable_colors():
     # Test that the function generates the correct number of colors

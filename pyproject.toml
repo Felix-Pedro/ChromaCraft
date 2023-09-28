@@ -5,11 +5,11 @@ requires      = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "distinguish-colors"
+name = "chroma-craft"
 version = "0.1.0"
 description = "A simple library that automates the generation of distinguishable colors paletes, and offers other color tools."
 readme = "README.md"
-authors = [{ name = "Felix-Pedro", email = "distinguish_colors@auneria.com" }]
+authors = [{ name = "Felix-Pedro", email = "croma_craft@auneria.com" }]
 license = { file = "LICENSE" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -33,5 +33,5 @@ dependencies = [
 dev = ["black", "pip-tools", "pytest"]
 
 [project.urls]
-Homepage = "https://github.com/Felix-Pedro/distinguish-colors"
+Homepage = "https://github.com/Felix-Pedro/ChromaCraft"
 
