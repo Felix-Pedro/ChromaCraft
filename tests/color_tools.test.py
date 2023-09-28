@@ -1,5 +1,5 @@
 import numpy as np
-from distinguish_colors.color_tools import generate_distinguishable_colors, is_color_distinguishable
+from src.distinguish_colors.color_tools import generate_distinguishable_colors, is_color_distinguishable
 
 def test_generate_distinguishable_colors():
     # Test that the function generates the correct number of colors

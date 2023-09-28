@@ -4,7 +4,6 @@ import numpy as np
 from tqdm import tqdm
 import matplotlib.patches as patches
 import time
-import colorsys
 import seaborn as sns
 
 
@@ -47,7 +46,7 @@ def is_color_distinguishable(new_color, existing_colors, min_color_diff=0.2, max
         new_color (tuple): RGB values of the new color.
         existing_colors (list): List of tuples with RGB values of existing colors.
         min_color_diff (float, optional): Minimum color difference threshold. Defaults to 0.2.
-        max_color_diff (int, optional): Maximum color difference threshold. Defaults to 2.
+        max_color_diff (int, optional): Maximum color difference threshold. Defaults to 2 (Imposible, no actual maximum).
         debug (bool, optional): Whether to show debug plots. Defaults to False.
 
     Returns:
@@ -123,7 +122,7 @@ def generate_distinguishable_colors(n, min_color_diff=0.2, max_color_diff=2, deb
     Returns:
         list: A list of n distinguishable colors.
     """
-    assert 0 < min_color_diff < np.sqrt(3), 'The minimum color difference must be in the range (0, sqrt(3))'
+    assert 0 < min_color_diff <= 2, 'The minimum color difference must be in the range (0, 2]'
     
     if progress_bar:
         pbar = tqdm(total=n)
