@@ -105,23 +105,24 @@ def is_color_distinguishable(new_color, existing_colors, min_color_diff=0.2, max
 
     return True
 
-def generate_distinguishable_colors(n, min_color_diff=0.2, max_color_diff=2, debug=False, hexa=False, colors=[], custom_color_fn=None, progress_bar=True):
+def generate_distinguishable_colors(n, min_color_diff=0.2, max_color_diff=2, debug=False, hexa=False, init_colors=list(), custom_color_fn=None, progress_bar=True):
     """
     Generate a list of n distinguishable colors.
 
     Args:
         n (int): The number of colors to generate.
-        min_color_diff (float): The minimum difference between two colors, it is a number between 0 and sqrt(3). Default is 0.2.
+        min_color_diff (float): The minimum difference between two colors, it is a number between 0 and sqrt(3), from srt(3) to 2 will be accepted as no min. Default is 0.2.
         max_color_diff (float): The maximum difference between two colors. Default is 2 (imposible, no actual maximum).
         debug (bool): Whether to plot the current color. Default is False.
         hexa (bool): Whether to return the colors in hexadecimal format. Default is False.
-        colors (list): A list of colors to start with. Default is an empty list.
+        init_colors (list): A list of colors to start with. Default is an empty list.
         custom_color_fn (function): A function that generates a custom color. Default is None.
         progress_bar (bool): Whether to show a progress bar. Default is True.
 
     Returns:
         list: A list of n distinguishable colors.
     """
+    colors = init_colors[:]
     assert 0 < min_color_diff <= 2, 'The minimum color difference must be in the range (0, 2]'
     
     if progress_bar:

@@ -1,5 +1,5 @@
 import sys
-import destinguish_colors.color_tools as ct
+import chroma_craft as ct
 
 def main():
     if len(sys.argv) > 1:
