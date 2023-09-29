@@ -31,7 +31,7 @@ colors = cc.generate_distinguishable_colors(n, min_color_diff, max_color_diff, h
 cc.plot_color_palette(colors)
 ```
 
-![first_example_palette](doc/images/example_pallete_1.png)
+![first_example_palette](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/example_pallete_1.png)
 
 ```python
 print(colors)
@@ -65,14 +65,14 @@ colors = cc.generate_distinguishable_colors(n, min_color_diff,
 cc.plot_color_palette(colors)
 ```
 
-![debug](doc/images/debug.png)
-![debug-1](doc/images/debug-1.png)
-![debug-2](doc/images/debug-2.png)
-![debug-3](doc/images/debug-3.png)
-![debug-4](doc/images/debug-5.png)
-![debug-5](doc/images/debug-6.png)
+![debug](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug.png)
+![debug-1](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug-1.png)
+![debug-2](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug-2.png)
+![debug-3](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug-3.png)
+![debug-4](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug-5.png)
+![debug-5](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug-6.png)
 
-![debug-6](doc/images/debug-7.png)
+![debug-6](https://raw.githubusercontent.com/Felix-Pedro/ChromaCraft/main/doc/images/debug-7.png)
 
 ## Author
 
