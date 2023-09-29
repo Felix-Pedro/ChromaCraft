@@ -1,7 +1,5 @@
 # ChromaCraft
 
----
-
 ChromaCraft is a Python package for generating and visualizing distinguishable color palettes. It provides tools for generating color sets with specific criteria, such as minimum and maximum color differences. This package is particularly useful for data visualization and design tasks where a set of visually distinct colors is needed.
 
 ## Installation
