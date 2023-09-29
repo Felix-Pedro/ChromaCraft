@@ -29,7 +29,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["black", "pip-tools", "pytest"]
+dev = ["black", "pip-tools", "pytest", "build", "twine"]
 
 [project.urls]
 Homepage = "https://github.com/Felix-Pedro/ChromaCraft"
