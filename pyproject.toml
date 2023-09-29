@@ -1,0 +1,36 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chroma-craft"
+version = "0.1.0"
+description = "A simple library that automates the generation of distinguishable colors paletes, and offers other color tools."
+readme = "README.md"
+authors = [{ name = "Felix-Pedro", email = "croma_craft@auneria.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["color", "colors", "distinguish", "distinguishable",
+            "different", "unique", "palette", "distinct", 'differenciable',
+            "color palette", "color palettes", "color palette generator",
+            "distinct colors", "distinct color", "distinguishable colors",
+            "unique color palette", "unique color palettes", "unique colors"]
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "tqdm",
+    "seaborn"
+]
+
+[project.optional-dependencies]
+dev = ["black", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/Felix-Pedro/ChromaCraft"
+
