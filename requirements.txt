@@ -41,7 +41,7 @@ seaborn==0.12.2
     # via chroma-craft (pyproject.toml)
 six==1.16.0
     # via python-dateutil
-tqdm==4.66.1
+tqdm==4.66.3
     # via chroma-craft (pyproject.toml)
 tzdata==2023.3
     # via pandas
